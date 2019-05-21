@@ -5,3 +5,15 @@ pypng
 PyPlatec
 protobuf
 six
+
+# Dev Requirements
+nose
+pytest
+pdbpp
+# for the documentation
+sphinx 
+sphinx-autobuild
+
+# For export support, you'll need HDF5
+Cython
+h5py
