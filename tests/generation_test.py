@@ -4,7 +4,7 @@ import numpy
 
 from worldengine.plates import Step, center_land, world_gen
 from worldengine.model.world import World, Size, GenerationParameters
-from tests.draw_test import TestBase
+from draw_test import TestBase
 
 from worldengine.generation import sea_depth
 from worldengine.common import anti_alias

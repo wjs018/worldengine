@@ -12,7 +12,7 @@ class TestBiome(unittest.TestCase):
     def setUp(self):
         tests_dir = os.path.dirname(os.path.realpath(__file__))
         self.tests_data_dir = os.path.abspath(os.path.join(
-            tests_dir, "../../worldengine-data/tests/data"))
+            tests_dir, "./data"))
         pass
 
     def test_biome_by_name(self):

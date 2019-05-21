@@ -1,6 +1,6 @@
 import os
 import sys
-from tests.draw_test import TestBase
+from draw_test import TestBase
 import unittest
 from worldengine import __main__
 from worldengine.cli.main import main

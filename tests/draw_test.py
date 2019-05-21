@@ -15,12 +15,12 @@ class TestBase(unittest.TestCase):
     def setUp(self):
         tests_dir = os.path.dirname(os.path.realpath(__file__))
         self.tests_data_dir = os.path.abspath(os.path.join(
-            tests_dir, "../../worldengine-data/tests/data"))
+            tests_dir, "./data"))
         self.tests_blessed_images_dir = os.path.abspath(
-            os.path.join(tests_dir, "../../worldengine-data/tests/images"))
+            os.path.join(tests_dir, "./blessed_images"))
         self.assertTrue(
             os.path.isdir(self.tests_data_dir),
-            "worldengine-data doesn't exist, please clone it before continuing.")
+            "data doesn't exist, please generate it or clone from Mindwerks/worldengine-data before continuing.")
 
     def _assert_is_valid_color(self, color, color_name):
         r, g, b = color
